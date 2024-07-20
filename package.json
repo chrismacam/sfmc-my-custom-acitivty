@@ -10,22 +10,21 @@
     "dev": "concurrently \"npm start\" \"webpack --watch\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/index.js --out-file dist/main.js && webpack --config webpack.config.js"
-
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balwillSFDC/sfmc-my-custom-acitivty.git"
+    "url": "git+https://github.com/chrismacam/sfmc-my-custom-acitivty"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/balwillSFDC/sfmc-my-custom-acitivty/issues"
   },
-  "homepage": "https://github.com/balwillSFDC/sfmc-my-custom-acitivty#readme",
+  "homepage": "https://github.com/chrismacam/sfmc-my-custom-acitivty#eadme",
   "description": "",
   "dependencies": {
     "@salesforce-ux/design-system": "^2.17.4",
-    "axios": "^0.25.0",
+    "axios": "^1.7.2",
     "config-json": "^1.0.0",
     "copy-webpack-plugin": "^10.2.4",
     "express": "^4.17.2",
